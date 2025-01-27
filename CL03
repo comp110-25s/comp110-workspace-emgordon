@@ -1,0 +1,7 @@
+def celsius_to_fahrenheit(degrees: int) -> float:
+    """convert degrees Celsius to degrees Farenheit."""
+    return (degrees * 9 / 5) + 32
+
+
+celsius_to_fahrenheit(degrees=0)
+celsius_to_fahrenheit(degrees=10)
